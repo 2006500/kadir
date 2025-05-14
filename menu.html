@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>span{color:black};</style>
+<style>p{color:black};</style>
+
+<style>
+       .image-gallery {
+            display: flex;
+            gap: 20px; 
+            flex-wrap: wrap; 
+        }
+       .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .text-on-image {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            font-size: 30px;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 1450px;
+            height: 720px;
+        }
+    </style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<div class="image-gallery">  
+<div class="image-container">
+    <img src="background1.jpg" alt="Image" alt="image 1">
+    <div class="text-on-image">   
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="menu.html">Menu</a>
+  <a href="project .html">Home</a>
+  <a href="project1.html">About us</a>
+  <a href="project2.html">Our products</a>
+  <a href="project5.html">Purchase</a>
+  <a href="project3.html">Blog</a>
+  <a href="project4.html">Thank you</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+<br><br><br><br><br> <Blockquote><Blockquote><Blockquote><Blockquote> <Blockquote><Blockquote> <font size=7 face><p> 
+KAPADIA COTTON
+
+</font></p> </Blockquote></Blockquote></Blockquote></Blockquote></Blockquote></Blockquote>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+</div>
+   
+</body>
+</html> 
